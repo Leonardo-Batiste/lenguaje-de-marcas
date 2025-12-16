@@ -1,33 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
+    <!--Etiquetas obligatorias canal-->
+    <title>Últimas Novedades y Tendencias</title>
+    <link>/index.html</link>
+    <description>
+        Pagina donde van apareciendo las ultimas noticias respecto a los sistemas de Monitorización
+        en tiempo real.
+    </description>
 
-    <title>W3Schools Home Page</title>
-
-    <link>https://www.w3schools.com</link>
-
-    <description>Free web building tutorials</description>
-
+    <!--2 etiquetas extra para el canal-->
+    <language>Español</language>
+    <category>Sistemas de Monitorización en tiempo real</category>
+    
     <item>
 
-        <title>RSS Tutorial</title>
+        <title>Beneficios de la Monitorización de Infraestructuras en la Nube</title>
 
-        <link>https://www.w3schools.com/xml/xml_rss.asp</link>
+        <link>/index.html</link> 
+        <!--Entiendo que link es para poner la URL de donde esta el articulo,
+        pero el ejercicio de la UD2 y UD3 es todo en local, ¿Entonces no se que poner en este caso?-->
 
-        <description>New RSS tutorial on W3Schools</description>
+        <description>
+            Articulo sbore los beneficios de trasladar el poder computacional de los sistemas de 
+            Monitorización en tiempo real, a la nube.
+        </description>
 
     </item>
-
-    <item>
         
+    <item>
+        <title>Implementación de Dashboards con Grafana y Prometheus</title>
+
+        <link>/index.html</link>
+
+        <description>
+            Articulo que explica como implementar un dashboard con grafana y prometheus.
+        </description>
     </item>
 
     <item>
+        <title>Alertas Predictivas basadas en Machine Learning (ML)</title>
 
-    </item>
+        <link>/index.html</link>
 
-    <item>
-        
+        <description>
+            Articulo que menciona como el uso de ML (Machine Learning) ayuda a prevenir fallos.
+        </description>
     </item>
 
     </channel>
