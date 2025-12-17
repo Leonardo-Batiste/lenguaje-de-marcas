@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Leonardo Batiste Carbonell">
     <meta name="keywords" content="monitor, glucosa, diabetes, tiempo real, glucómetro, sensor, app">
-    <meta name="description" content="Página principal de la aplicación de monitorización de glucosa en tiempo real.">
+    <meta name="description" content="Página con una simulacion de cuanta bateria le queda a el sensor ficticio de glucosa de la aplicación de monitorización de glucosa en tiempo real.">
     <link rel="icon" href="img/glucosa-logo.png" type="image/png">
-    <title>GlucosaRT - Inicio</title>
+    <title>GlucosaRT - Bateria del sensor</title>
     
     <link href="sindicacion.rss" rel="alternate" type="application/rss+xml"/>
 
@@ -36,34 +36,45 @@
                     />
             </a>
         </nav>
-
         
         <div class="contenido-flex">
             
             <article class="article">
-                <h2>Lectura de Glucosa Actual</h2>
-                <p class="lectura-grande">112</p>
-                <p class="unidad">mg/dL</p>
-                <p>Tendencia: Estable $\rightarrow$</p>
-                <p>Última actualización: 18:25h</p>
-                <p>Rango objetivo: 70 - 180 mg/dL</p>
+                <h2>Estado de la batería</h2>
+
+                    <p>Aquí se muestra cuánta batería le queda al sensor y al dispositivo que recibe los datos.</p>
+
+                    <h3>Batería del sensor</h3>
+                    <p>Nivel aproximado: 65%. Si baja del 20% deberías cambiarlo pronto para que no deje de enviar datos.</p>
+
+                    <h3>Batería del dispositivo</h3>
+                    <p>Nivel del móvil o aparato donde se reciben los datos: 80%.</p>
+
+                    <h3>Consumo estimado</h3>
+                    <p>El sensor consume muy poca energía, pero si la señal es débil el consumo puede aumentar.</p>
+
+                    <h3>Consejos</h3>
+                    <p>Intenta mantener el sensor cerca del dispositivo para evitar pérdidas de conexión.</p>
+
             </article>
 
             <aside class="aside">
-                <h3>Alertas y Avisos</h3>
-                <div class="alerta">
-                    **AVISO:** La lectura está dentro del rango objetivo.
-                </div>
-                <div class="alerta-suplementaria">
-                    Recuerda calibrar tu sensor mañana.
-                </div>
+                <h3>Información útil</h3>
+
+                    <p>El sensor suele durar entre 10 y 14 días, dependiendo del modelo.</p>
+
+                    <p>Si notas que la batería baja muy rápido, podría ser un error del sistema.</p>
+
+                    <p>Evita mojar el sensor si no está preparado para ello.</p>
+
+                    <p>Última comprobación de batería: 18:42h (simulado).</p>
+
             </aside>
         </div>
 
         <footer class="footer">
             <p>Contacto: <a href="mailto:info@ficticio.org">info@ficticio.org</a> | Teléfono: 900-123-456</p>
-            <p><a href="img/mapaWeb.png">Ver Mapa del Sitio Web</a></p>
-        </footer>   
+        </footer>
 
     </div>
 </body>

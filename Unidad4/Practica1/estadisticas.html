@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Leonardo Batiste Carbonell">
     <meta name="keywords" content="monitor, glucosa, diabetes, tiempo real, glucómetro, sensor, app">
-    <meta name="description" content="Página principal de la aplicación de monitorización de glucosa en tiempo real.">
+    <meta name="description" content="Página con tus estadisticas de glucosa de la aplicación de monitorización de glucosa en tiempo real.">
     <link rel="icon" href="img/glucosa-logo.png" type="image/png">
-    <title>GlucosaRT - Inicio</title>
+    <title>GlucosaRT - Estadisticas</title>
     
     <link href="sindicacion.rss" rel="alternate" type="application/rss+xml"/>
 
@@ -36,34 +36,51 @@
                     />
             </a>
         </nav>
-
         
         <div class="contenido-flex">
             
             <article class="article">
-                <h2>Lectura de Glucosa Actual</h2>
-                <p class="lectura-grande">112</p>
-                <p class="unidad">mg/dL</p>
-                <p>Tendencia: Estable $\rightarrow$</p>
-                <p>Última actualización: 18:25h</p>
-                <p>Rango objetivo: 70 - 180 mg/dL</p>
+                <h2>Estadísticas de glucosa</h2>
+
+                    <p>En esta página puedes ver algunos datos básicos sobre tus lecturas de glucosa.</p>
+
+                    <h3>Promedio diario</h3>
+                    <p>Promedio de hoy: 118 mg/dL. Esto se calcula usando todas las lecturas tomadas durante el día.</p>
+
+                    <h3>Máximo y mínimo</h3>
+                    <p>Valor máximo del día: 162 mg/dL.</p>
+                    <p>Valor mínimo del día: 74 mg/dL.</p>
+
+                    <h3>Tiempo en rango</h3>
+                    <p>Tiempo en rango recomendado (70-180 mg/dL): 82%.</p>
+                    <p>Tiempo por encima del rango: 10%.</p>
+                    <p>Tiempo por debajo del rango: 8%.</p>
+
+                    <h3>Variabilidad</h3>
+                    <p>La variación de las lecturas indica si la glucosa cambia mucho o poco. En este caso es media.</p>
+
+                    <h3>Notas</h3>
+                    <p>Estas estadísticas son solo un ejemplo y no sirven como datos médicos reales.</p>
+
             </article>
 
             <aside class="aside">
-                <h3>Alertas y Avisos</h3>
-                <div class="alerta">
-                    **AVISO:** La lectura está dentro del rango objetivo.
-                </div>
-                <div class="alerta-suplementaria">
-                    Recuerda calibrar tu sensor mañana.
-                </div>
+                <h3>Resumen rápido</h3>
+
+                    <p>Las estadísticas ayudan a ver si los valores suelen estar altos, bajos o estables.</p>
+
+                    <p>Revisa el tiempo en rango para saber si necesitas cambiar hábitos o consultar a un especialista.</p>
+
+                    <p>Si las variaciones son muy grandes, puede indicar que los niveles cambian demasiado rápido.</p>
+
+                    <p>Actualización automática cada 5 minutos (simulado).</p>
+
             </aside>
         </div>
 
         <footer class="footer">
             <p>Contacto: <a href="mailto:info@ficticio.org">info@ficticio.org</a> | Teléfono: 900-123-456</p>
-            <p><a href="img/mapaWeb.png">Ver Mapa del Sitio Web</a></p>
-        </footer>   
+        </footer>
 
     </div>
 </body>

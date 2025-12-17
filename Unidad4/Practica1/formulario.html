@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Leonardo Batiste Carbonell">
+    <meta name="keywords" content="monitor, glucosa, diabetes, tiempo real, glucómetro, sensor, app">
+    <meta name="description" content="Página con un formularioa sobre la aplicación de monitorización de glucosa en tiempo real.">
+    <link rel="icon" href="img/glucosa-logo.png" type="image/png">
+    <title>GlucosaRT - Formulario</title>
+    
+    <link href="sindicacion.rss" rel="alternate" type="application/rss+xml"/>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="contenedor-principal">
+        
+        <header class="header">
+            <h1>Glucosa **Real Time**</h1>
+            <img src="img/glucosa-logo.png" alt="Icono de la aplicación" class="logo-header">
+        </header>
+
+        <nav class="nav">
+            <a href="index.html" class="boton-nav">Inicio</a>
+            <a href="configuracion.html" class="boton-nav">Configuración</a>
+            <a href="estadoBateria.html" class="boton-nav">Batería</a>
+            <a href="estadisticas.html" class="boton-nav">Estadísticas</a>
+            <a href="formulario.html" class="boton-nav">Formulario</a>
+
+            <a href="sindicacion.rss">
+                    <img 
+                        class="imagen-rss" 
+                        src="simbolo-rss.jpg" 
+                        alt="Imagen del simbolo de rss"
+                    />
+            </a>
+        </nav>
+        
+        <div class="contenido-flex">
+            
+            <article class="article">
+                <h2>Formulario de ajustes personalizados</h2>
+
+                    <p>Aquí puedes enviar tus preferencias para mejorar el funcionamiento del sistema.</p>
+
+                    <form action="#" method="post">
+
+                        <label>Nombre del usuario:</label><br>
+                        <input type="text" name="nombre"><br><br>
+
+                        <label>Correo electrónico:</label><br>
+                        <input type="email" name="correo"><br><br>
+
+                        <label>Rango mínimo de glucosa (mg/dL):</label><br>
+                        <input type="number" name="minimo"><br><br>
+
+                        <label>Rango máximo de glucosa (mg/dL):</label><br>
+                        <input type="number" name="maximo"><br><br>
+
+                        <label>¿Quieres recibir alertas de glucosa baja?</label><br>
+                        <input type="checkbox" name="alerta_baja"> Sí<br><br>
+
+                        <label>¿Quieres recibir alertas de glucosa alta?</label><br>
+                        <input type="checkbox" name="alerta_alta"> Sí<br><br>
+
+                        <label>Frecuencia de actualización de datos:</label><br>
+                        <select name="frecuencia">
+                            <option value="5">Cada 5 minutos</option>
+                            <option value="10">Cada 10 minutos</option>
+                            <option value="15">Cada 15 minutos</option>
+                        </select><br><br>
+
+                        <label>Comentario adicional:</label><br>
+                        <textarea name="comentario" rows="4" cols="30"></textarea><br><br>
+
+                        <input type="submit" value="Enviar">
+                    </form>
+
+            </article>
+
+            <aside class="aside">
+                <h3>Información del formulario</h3>
+
+                    <p>Este formulario sirve para enviar tus preferencias y poder configurar mejor la aplicación.</p>
+
+                    <p>Las alertas afectan a los avisos que aparecen cuando los valores están fuera del rango.</p>
+
+                    <p>La frecuencia de actualización indica cada cuánto se revisarán las lecturas.</p>
+
+                    <p>Los datos no se guardan de verdad, es solo un ejemplo práctico para la actividad.</p>
+
+            </aside>
+        </div>
+
+        <footer class="footer">
+            <p>Contacto: <a href="mailto:info@ficticio.org">info@ficticio.org</a> | Teléfono: 900-123-456</p>
+        </footer>
+
+    </div>
+</body>
+</html>

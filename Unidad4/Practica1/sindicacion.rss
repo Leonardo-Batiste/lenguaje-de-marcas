@@ -2,11 +2,10 @@
 <rss version="2.0">
     <channel>
     <!--Etiquetas obligatorias canal-->
-    <title>Últimas Novedades y Tendencias</title>
+    <title>Glucosa Real Time</title>
     <link>/index.html</link>
     <description>
-        Pagina donde van apareciendo las ultimas noticias respecto a los sistemas de Monitorización
-        en tiempo real.
+        Pagina donde aparecen distintas estadisticas de una app que muestra informacion de la glucosa desde un sensor
     </description>
 
     <!--2 etiquetas extra para el canal-->
@@ -15,37 +14,46 @@
     
     <item>
 
-        <title>Beneficios de la Monitorización de Infraestructuras en la Nube</title>
+        <title>Configuración</title>
 
-        <link>/index.html</link> 
-        <!--Entiendo que link es para poner la URL de donde esta el articulo,
-        pero el ejercicio de la UD2 y UD3 es todo en local, ¿Entonces no se que poner en este caso?-->
+        <link>/index.html/configuracion.html</link> 
 
         <description>
-            Articulo sbore los beneficios de trasladar el poder computacional de los sistemas de 
-            Monitorización en tiempo real, a la nube.
+            Pagina que muestra las distintas configuraciones: Alarma, Rango objetivo, Modo de previsualizacion, Idioma, Sensor, etc.
         </description>
 
     </item>
         
     <item>
-        <title>Implementación de Dashboards con Grafana y Prometheus</title>
+        <title>Estado de Bateria</title>
 
-        <link>/index.html</link>
+        <link>/index.html/estadoBateria.html</link>
 
         <description>
-            Articulo que explica como implementar un dashboard con grafana y prometheus.
+            Pagina que muestra cuanta bateria le queda al sensor fisico.
         </description>
     </item>
 
     <item>
-        <title>Alertas Predictivas basadas en Machine Learning (ML)</title>
+        <title>Estadisticas</title>
 
-        <link>/index.html</link>
+        <link>/index.html/estadisticas.html</link>
 
         <description>
-            Articulo que menciona como el uso de ML (Machine Learning) ayuda a prevenir fallos.
+            Pagina que muestra las distintas estadisticas que ha registrado el sensor: promedio, maximo/minimo, tiempo en rango, etc.
         </description>
+    </item>
+
+    <item>
+        <title>Formulario</title>
+
+        <link>/index.html/formulario.html</link>
+
+        <description>
+            Pagina que contiene un formulario que envia al dueño de la pagina cosas que le gustaria que cambiasen o si le gustaria 
+            aportar mejoras al sistema.
+        </description>
+
     </item>
 
     </channel>
