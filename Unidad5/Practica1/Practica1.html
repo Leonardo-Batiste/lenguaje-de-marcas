@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang = es>
 <head>
-
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript</title>
 </head>
 	
 <body>
+	<!--Algunos ejercicios piden que use una pagina externa, no la he usado porque el profesor me ha dicho que mejor todo de forma "inline"
+	para facilitar la correccion.-->
+	
 	<!--
 	<h1>Actividad 1</h1>
 		<script>
@@ -22,6 +27,7 @@
 		</script>
 	-->	
 	
+	<!--
 	<h1>Actividad 3</h1>
 		<script>
 			a = parseInt(prompt("Introduce el 1º numero."));
@@ -34,16 +40,69 @@
 			document.write("la resta de "+a+" entre "+b+" es "+(a-b)+"<br>");
 			document.write("La division de "+a+" entre "+b+" es "+(a/b)+"<br>");
 		</script>
+	-->
 	
+	<!--
 	<h1>Actividad 4</h1>
+		<script>
+			a = parseInt(prompt("Introduce el 1º numero."));
+			b = parseInt(prompt("Introduce el 2º numero."));
+			
+			alert(a+" y "+b+" son iguales: "+(a==b));
+			alert(a+" y "+b+" son distintos: "+(a!=b));
+			alert(a+" es mayor que "+b+" "+(a>b));
+		</script>
+	-->
 	
+	<!--
 	<h1>Actividad 5</h1>
+		<script>
+			calificacionActividades = parseInt(prompt("Introduce tu calificacion de las actividades a continuacion."));
+			calificacionExamen = parseInt(prompt("Introduce tu calificacion del examen a continuacion."));
+			
+			notaFinalActividades =calificacionActividades*0.3;
+			notaFinalExamen=calificacionExamen*0.7;
+			haAprobado=(notaFinalActividades+notaFinalExamen)>=5;
+			
+			alert("¿Estas aprobado?"+haAprobado+"\nTu calificacion para la evaluacion es "+(notaFinalActividades+notaFinalExamen));
+		</script>
+	-->
 	
+	<!--
 	<h1>Actividad 6</h1>
+		<script>
+			condicion = 1;
+			do {
+				document.write(condicion+"<br>");
+				condicion++;
+			} while(condicion<=10)
+		</script>
+	-->
 	
+	<!--
 	<h1>Actividad 7</h1>
+		<script>
+			condicion = 1;
+			do {
+				document.write("<br>"+condicion);
+				if (condicion%2==0){
+					document.write(" es par.");
+				}
+				condicion++;
+			} while(condicion<=10)
+		</script>
+	-->
 	
+	<!--
 	<h1>Actividad 8</h1>
+		<script>
+			numeroPartida = parseInt(prompt("Introduce el numero de partida para la cuenta atras."));
+			for (i=numeroPartida;i>=0;i--){
+				document.write(i+"<br>");
+			}
+		</script>
+	-->
+	
 </body>
 
 </html>
