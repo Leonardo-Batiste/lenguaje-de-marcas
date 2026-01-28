@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Efecto Hover en Imágenes</title>
+    </head>
+    <body>
+        <div id="galeria"></div>
+
+        <script>
+            // Configuración de las imágenes
+            const imagenes = [
+                "1.png",
+                "2.png",
+                "3.png",
+                "4.png",
+            ];
+
+            const galeria = document.getElementById("galeria");
+
+            // Valores originales
+            const tamañoOriginal = "150px";
+            const tamañoAmpliado = "250px";
+
+            imagenes.forEach((src) => {
+                const img = document.createElement("img");
+                img.src = src;
+                img.alt = "Imagen interactiva";
+
+                // Estilos iniciales aplicados directamente via JS (inline)
+                img.style.width = tamañoOriginal;
+                img.style.height = tamañoOriginal;
+                img.style.margin = "15px";
+                img.style.transition = "width 0.3s, height 0.3s"; // Transición suave
+
+                // Evento: cuando el ratón pasa por encima
+                img.onmouseenter = function () {
+                    this.style.width = tamañoAmpliado;
+                    this.style.height = tamañoAmpliado;
+                    this.style.border = "4px solid red"; // Marco rojo
+                    this.style.padding = "5px"; // Espacio interior
+                    this.style.backgroundColor = "#f0f0f0"; // Fondo del marco
+                };
+
+                // Evento: cuando el ratón sale de la imagen
+                img.onmouseleave = function () {
+                    this.style.width = tamañoOriginal;
+                    this.style.height = tamañoOriginal;
+                    this.style.border = "none"; // Eliminar marco
+                    this.style.padding = "0px";
+                    this.style.backgroundColor = "transparent";
+                };
+
+                galeria.appendChild(img);
+            });
+        </script>
+    </body>
+</html>

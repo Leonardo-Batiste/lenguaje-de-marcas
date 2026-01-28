@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Suma de Números</title>
+</head>
+<body>
+
+    <h2>Introduce dos números</h2>
+    
+    Primer número: <input type="number" id="num1"><br><br>
+    Segundo número: <input type="number" id="num2"><br><br>
+
+    <p onclick="mostrarResultado()" style="cursor: pointer; color: blue; text-decoration: underline;">
+        La suma de los números introducidos es:
+    </p>
+    
+    <p id="resultado"></p>
+
+    <script>
+        function suma(a, b) {
+            return a + b;
+        }
+
+        function mostrarResultado() {
+            var numero1 = parseFloat(document.getElementById("num1").value);
+            var numero2 = parseFloat(document.getElementById("num2").value);
+            
+            var resultado = suma(numero1, numero2);
+            
+            document.getElementById("resultado").innerHTML = "Resultado: " + resultado;
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cambiar Color con Teclado</title>
+</head>
+<body>
+
+    <h2>Pulsa la tecla "C" para cambiar el color de fondo</h2>
+    <p>También puedes usar los números 1, 2, 3 para colores específicos</p>
+
+    <script>
+        var colores = ['white', 'lightblue', 'lightgreen', 'lightyellow', 'lightcoral', 'plum'];
+        var indice = 0;
+
+        document.addEventListener('keydown', function(event) {
+            // Si presiona la tecla "c" o "C"
+            if (event.key === 'c' || event.key === 'C') {
+                document.body.style.backgroundColor = colores[indice];
+                indice = (indice + 1) % colores.length; // Avanza al siguiente color
+            }
+            
+            if (event.key === '1') {
+                document.body.style.backgroundColor = 'lightblue';
+            }
+            if (event.key === '2') {
+                document.body.style.backgroundColor = 'lightgreen';
+            }
+            if (event.key === '3') {
+                document.body.style.backgroundColor = 'lightyellow';
+            }
+
+            if (event.key === 'r' || event.key === 'R') {
+                document.body.style.backgroundColor = 'white';
+            }
+        });
+    </script>
+
+</body>
+</html>
