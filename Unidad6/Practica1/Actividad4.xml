@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pais>
+	<españa>
+		<bandera></bandera>
+		<escudo></escudo>
+		<lema>Plus ultra</lema>
+		<himno>Marcha Ganadera o Marcha Real Española</himno>
+		<mapa></mapa>
+		<capital>Madrid</capital>
+		<idioma_oficial>Castellano</idioma_oficial>
+		<gentilicio>Español, la</gentilicio>
+		<forma_de_gobierno>Monarquia parlamentaria</forma_de_gobierno>
+		<organo_legislativo>Cortes Generales</organo_legislativo>
+	</españa>
+</pais>

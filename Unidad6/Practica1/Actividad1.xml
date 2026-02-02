@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ciudades>
+	<ciudad>
+		<nombre>Tbilisi</nombre>
+		<pais>Georgia</pais>
+		<continente atributo="Europa"/>
+	</ciudad>
+	
+	<ciudad>
+		<nombre>Mexico DF</nombre>
+		<pais>Mexico</pais>
+		<continente atributo="America"/>
+	</ciudad>
+	
+	<ciudad>
+		<nombre>Dakar</nombre>
+		<pais>Senegal</pais>
+		<continente atributo="Africa"/>
+	</ciudad>
+</ciudades>

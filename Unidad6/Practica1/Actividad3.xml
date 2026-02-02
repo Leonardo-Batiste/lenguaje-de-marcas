@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<lenguaje_de_programacion>
+	<java>
+		<fechaSalida>1996</fechaSalida><!--Dato tipo string-->
+		<valorRetorno_NoEncontrado>-1</valorRetorno_NoEncontrado><!--Dato tipo entero-->
+		<ultimaVersionJDK>25.0.2</ultimaVersionJDK><!--Dato tipo real-->
+		<orientadoObjetos>true</orientadoObjetos><!--Dato tipo booleano-->
+	</java>
+</lenguaje_de_programacion>

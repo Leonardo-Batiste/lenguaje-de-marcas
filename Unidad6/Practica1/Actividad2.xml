@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vias_ferratas>
+	<via>
+		<nombre>Cagate Lorito</nombre>
+		<dificultad>k6</dificultad>
+		<duracion>
+			<aproximacion>25</aproximacion>
+			<recorrido>35</recorrido>
+			<retorno>20</retorno>
+		</duracion>
+	</via>
+	
+	<via>
+		<nombre>Cascada de sorrosal</nombre>
+		<dificultad>k3</dificultad>
+		<duracion>
+			<aproximacion>5</aproximacion>
+			<recorrido>90</recorrido>
+			<retorno>20</retorno>
+		</duracion>
+	</via>
+	
+	<via>
+		<nombre>Cala moli</nombre>
+		<dificultad>k3</dificultad>
+		<duracion>
+			<aproximacion>2</aproximacion>
+			<recorrido>90</recorrido>
+			<retorno>10</retorno>
+		</duracion>
+	</via>
+</vias_ferratas>
