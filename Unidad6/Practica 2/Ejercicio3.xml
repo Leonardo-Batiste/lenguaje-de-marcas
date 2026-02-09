@@ -1,0 +1,32 @@
+﻿<!NOTATION pdf_format SYSTEM "application/pdf">
+
+<!ENTITY pdf_adjunto SYSTEM "documento_adjunto.pdf">
+
+<!ELEMENT factura (cliente, productos, pagado, observacion_adicional?)>
+<!ATTLIST factura 
+          numero_factura ID #REQUIRED
+          estado (Pendiente | Enviado | Entregado) #IMPLIED>
+
+<!ELEMENT cliente (nombre)>
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto (nombre_prod, precio, producto_revisar?)>
+<!ATTLIST producto 
+          id_producto ID #REQUIRED
+          descuento_aplicado NMTOKEN #IMPLIED>
+
+<!ELEMENT nombre_prod (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+
+<!ELEMENT producto_revisar EMPTY>
+<!ATTLIST producto_revisar 
+          ref_id IDREF #REQUIRED>
+
+<!ELEMENT pagado EMPTY>
+<!ELEMENT observacion_adicional (#PCDATA)>
+
+<!ELEMENT archivo_pdf EMPTY>
+<!ATTLIST archivo_pdf 
+          fuente ENTITY #REQUIRED
+          formato NOTATION (pdf_format) #IMPLIED>

@@ -1,6 +1,5 @@
-<!DOCTYPE vehiculos [
 <!ELEMENT vehiculos (coches|motos)*>
-<!ELEMENT coches (coche)>
+<!ELEMENT coches (coche*)>
 <!ELEMENT coche (planta_aparcamiento, marca, modelo, color, minusválido, matriculacion, imagen, propietario)>
 <!ATTLIST coche
           matricula CDATA #REQUIRED>
@@ -22,7 +21,4 @@
 <!ELEMENT telefono (#PCDATA)>
 <!ELEMENT motos (moto)>
 <!ELEMENT moto (planta_aparcamiento, marca, modelo, color, minusválido, matriculacion, imagen, propietario)>
-<!ATTLIST moto
-          matricula CDATA #REQUIRED>  
-]>
-
+<!ATTLIST moto matricula CDATA #REQUIRED>  
