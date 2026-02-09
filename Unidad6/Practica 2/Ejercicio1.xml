@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE lenguaje_de_programacion [
+    <!ELEMENT lenguaje_de_programacion (java)>
+    <!ELEMENT java (fechaSalida, valorRetorno_NoEncontrado, ultimaVersionJDK, orientadoObjetos)>
+    
+    <!ELEMENT fechaSalida (#PCDATA)>
+    <!ELEMENT valorRetorno_NoEncontrado (#PCDATA)>
+    <!ELEMENT ultimaVersionJDK (#PCDATA)>
+    <!ELEMENT orientadoObjetos (#PCDATA)>
+]>
+
+<lenguaje_de_programacion>
+    <java>
+        <fechaSalida>1996</fechaSalida>
+        <valorRetorno_NoEncontrado>-1</valorRetorno_NoEncontrado>
+        <ultimaVersionJDK>25.0.2</ultimaVersionJDK>
+        <orientadoObjetos>true</orientadoObjetos>
+    </java>
+</lenguaje_de_programacion>

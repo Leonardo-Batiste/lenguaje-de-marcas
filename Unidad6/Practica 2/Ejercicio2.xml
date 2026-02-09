@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vehiculos SYSTEM "vehiculos.dtd">
+<vehiculos>
+  <coches>
+    <coche matricula="1234ABC"> 
+      <planta_aparcamiento>1</planta_aparcamiento>
+      <marca>Opel</marca>
+      <modelo>Vectra</modelo>
+      <color>Gris</color>
+      <minusválido>False</minusválido>
+      <matriculacion>2004</matriculacion>
+      <imagen nombre="foto_coche" extension="jpg" /> 
+      <propietario> <nombre dni="11222333A">Leo</nombre> <apellidos>Apellido Leo</apellidos>
+        <telefono>123-456-789</telefono>
+      </propietario>
+    </coche>
+  </coches>
+
+  <motos>
+    <moto matricula="9988XYZ"> <planta_aparcamiento>2</planta_aparcamiento>
+      <marca>Honda</marca>
+      <modelo>CBR</modelo>
+      <color>Rojo</color>
+      <minusválido>False</minusválido>
+      <matriculacion>2010</matriculacion>
+      <imagen nombre="foto_moto" extension="png" /> <propietario> <nombre dni="44555666B">Maria</nombre>
+        <apellidos>García</apellidos>
+        <telefono>987654321</telefono>
+      </propietario>
+    </moto>
+  </motos>
+</vehiculos>
